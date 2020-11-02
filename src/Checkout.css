@@ -1,0 +1,36 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  /* overflow: hidden; */
+}
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.checkout__ad {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.checkout__right {
+  margin: 10px;
+}
+@media (max-width: 767px) {
+  .checkout {
+    flex-wrap: wrap;
+  }
+  .subtotal {
+    width: 100% !important;
+    height: auto;
+    padding: 20px 5px !important;
+  }
+  .checkout__right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 !important;
+  }
+}

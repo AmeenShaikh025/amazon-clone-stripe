@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ff34f34.chunk.css",
+    "main.js": "/static/js/main.b6c7fcce.chunk.js",
+    "main.js.map": "/static/js/main.b6c7fcce.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.90140090.js",
+    "runtime-main.js.map": "/static/js/runtime-main.90140090.js.map",
+    "static/js/2.0e90fa13.chunk.js": "/static/js/2.0e90fa13.chunk.js",
+    "static/js/2.0e90fa13.chunk.js.map": "/static/js/2.0e90fa13.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.57aad290b4f8bf5ffec8905b3fe039d3.js": "/precache-manifest.57aad290b4f8bf5ffec8905b3fe039d3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6ff34f34.chunk.css.map": "/static/css/main.6ff34f34.chunk.css.map",
+    "static/js/2.0e90fa13.chunk.js.LICENSE.txt": "/static/js/2.0e90fa13.chunk.js.LICENSE.txt",
+    "static/media/Laptop.jpg": "/static/media/Laptop.2f66ec33.jpg",
+    "static/media/Mi.jpg": "/static/media/Mi.c3334a1c.jpg",
+    "static/media/amazon-adlaptop.jpg": "/static/media/amazon-adlaptop.2b6a33de.jpg",
+    "static/media/amazon-home.jpg": "/static/media/amazon-home.f3f11c4b.jpg",
+    "static/media/desktop_banner_home.jpg": "/static/media/desktop_banner_home.5e0c1a11.jpg",
+    "static/media/led_screen.jpeg": "/static/media/led_screen.eb83a291.jpeg",
+    "static/media/prod-home.jpg": "/static/media/prod-home.ea512a54.jpg",
+    "static/media/sweater.jpeg": "/static/media/sweater.dc63871b.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90140090.js",
+    "static/js/2.0e90fa13.chunk.js",
+    "static/css/main.6ff34f34.chunk.css",
+    "static/js/main.b6c7fcce.chunk.js"
+  ]
+}
