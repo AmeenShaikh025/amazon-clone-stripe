@@ -11,6 +11,15 @@ import Subtotal from "./Subtotal";
 const Checkout = () => {
   const [{ basket, user }] = useStateValue();
 
+
+  basket.map((value, index, arr) => (
+    arr.findIndex((item) => {
+      if(item.title === value.title && item.id === value.id ) {
+        return arr.shift();
+      }
+    })
+  ))
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -44,6 +53,7 @@ const Checkout = () => {
             {/* All checkout products */}
             <FlipMove>
               {basket.map((item) => (
+                
                 <CheckoutProduct
                   key={item.id}
                   id={item.id}
@@ -51,6 +61,7 @@ const Checkout = () => {
                   image={item.image}
                   price={item.price}
                   rating={item.rating}
+                  count={item.count}
                 />
               ))}
             </FlipMove>

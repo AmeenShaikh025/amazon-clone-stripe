@@ -8,6 +8,16 @@ function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
+    
+    let count = 1;
+
+    basket.map(item => {
+      if(item.id === id) {
+        count++;
+      }
+      return count;
+    })
+
     //Add item to the basket
     dispatch({
       type: "ADD_TO_BASKET",
@@ -17,6 +27,7 @@ function Product({ id, title, image, price, rating }) {
         image: image,
         price: price,
         rating: rating,
+        count: count
       },
     });
   };
